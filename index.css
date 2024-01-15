@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+#boards {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.board {
+  margin-left: 20px;
+  background-image: url('https://www.tdpra.ru/media/shop_backbone_media/2024/1/9/rotate_279.jpg');
+  position: relative;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  width: 366px;
+  /* 1830 * 0.2(scale) */
+  height: 726px;
+  /* 3630 * 0.2(scale) */
+}
+
+
+
+.rectangle {
+  position: absolute;
+}
+
+.rectangles-list {
+  width: 25%;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.rectangle-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.deleteBtn {
+   margin-left: auto;
+}
+
+
+button {
+  width: 100px;
+  background-color: rgb(3, 52, 101);
+  height: 30px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+
+
+
+
